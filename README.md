@@ -77,6 +77,10 @@ git remote add origin https://gitee.com/bbigsun/docsify-pages.git
 git push -u origin "master"
 ```
 
+### 部署 Gitee Pages
+
+![](./_meida/gitee-pages.png)
+
 
 ## docsify 语法
 
