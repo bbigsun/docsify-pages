@@ -12,13 +12,16 @@
 
 如果不关心 docsify 如何安装，可以直接使用以下 4 步：
 
-1、fork 本仓库，仓库地址：https://gitee.com/bbigsun/docsify-pages
+1、fork 本仓库
 
-2、修改仓库名称（Gitee Settings）
+- Gitee 仓库地址： https://gitee.com/bbigsun/docsify-pages
+- GitHub 仓库地址： https://github.com/bbigsun/docsify-pages
+
+2、修改仓库名称（Gitee/GitHub Settings）
 
 3、更新仓库内容
 
-4、发布到 Gitee pages
+4、发布到 Gitee pages / GitHub Pages
 
 ### 安装 Node.js 
 
@@ -93,7 +96,7 @@ git push -u origin "master"
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>docsify-pages</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
