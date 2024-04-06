@@ -76,13 +76,26 @@ git config --global user.email "your_email"
 cd docsify-pages
 git add .
 git commit -m "first commit"
-git remote add origin https://gitee.com/bbigsun/docsify-pages.git
-git push -u origin "master"
+git remote add gitee https://gitee.com/bbigsun/docsify-pages.git
+git push -u gitee "master"
 ```
 
-### 部署 Gitee Pages
+创建 GitHub 远程仓库并连接，提交代码。
+
+```bash
+git remote add github https://github.com/bbigsun/docsify-pages.git
+git push -u github "main"
+```
+
+### 部署静态网站
+
+#### Gitee Pages
 
 ![](./_meida/gitee-pages.png)
+
+#### GitHub Pages
+
+![](./_media/github-pages.png)
 
 
 ## docsify 语法
@@ -214,6 +227,7 @@ window.$docsify = {
   * [安装 docsify](#安装-docsify)
   * [使用 docsify](#使用-docsify)
   * [提交代码](#提交代码)
+  * [部署静态网站](#部署静态网站)
 
 * [配置](#配置)
 

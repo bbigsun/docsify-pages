@@ -5,7 +5,7 @@
   * [安装 docsify](#安装-docsify)
   * [使用 docsify](#使用-docsify)
   * [提交代码](#提交代码)
-  * [部署 Gitee Pages](部署-Gitee-Pages)
+  * [部署静态网站](#部署静态网站)
 
 * [配置](#配置)
 
