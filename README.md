@@ -77,14 +77,16 @@ cd docsify-pages
 git add .
 git commit -m "first commit"
 git remote add gitee https://gitee.com/bbigsun/docsify-pages.git
-git push -u gitee "master"
+git push -u gitee master:master
 ```
 
 创建 GitHub 远程仓库并连接，提交代码。
 
+注意本地分支和远程分支名称要对应
+
 ```bash
 git remote add github https://github.com/bbigsun/docsify-pages.git
-git push -u github "main"
+git push -u github master:master
 ```
 
 ### 部署静态网站
@@ -95,7 +97,7 @@ git push -u github "main"
 
 #### GitHub Pages
 
-![](./_media/github-pages.png)
+![](./_meida/github-pages.png)
 
 
 ## docsify 语法
